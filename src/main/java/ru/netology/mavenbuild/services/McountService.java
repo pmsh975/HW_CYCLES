@@ -1,7 +1,7 @@
 package ru.netology.mavenbuild.services;
 
 public class McountService {
-    public int McountService(int income, int expenses, int threshold) {
+    public int calculate(int income, int expenses, int threshold) {
         int count = 0; // счётчик месяцев отдыха
         int money = 0; // количество денег на счету
         for (int month = 0; month < 12; month++) {
